@@ -1,0 +1,7 @@
+11:52:54.628 INFO  base.CustomDriver -Element clicked Login link
+11:52:54.653 INFO  base.CustomDriver -Element found with :id=>email
+11:52:54.791 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: test@email.com
+11:52:54.804 INFO  base.CustomDriver -Element found with :id=>login-password
+11:52:54.893 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: abcabc
+11:52:54.906 INFO  base.CustomDriver -Element found with :id=>login
+11:52:54.981 INFO  base.CustomDriver -Element clicked Login Button

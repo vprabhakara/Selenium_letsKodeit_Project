@@ -1,0 +1,88 @@
+package com.letsKodeit.base;
+
+import org.openqa.selenium.HasCapabilities;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.remote.CapabilityType;
+
+import java.time.Duration;
+
+public class WebDriverFactory {
+
+    private static final WebDriverFactory instance = new WebDriverFactory();
+
+
+     private WebDriverFactory()
+    {
+
+    }
+
+    public static WebDriverFactory getIntance() {
+        return instance;
+    }
+
+    private static ThreadLocal<WebDriver> threadedDriver = new ThreadLocal<WebDriver>();
+    private static ThreadLocal<String> threadedBrowser = new ThreadLocal<String>();
+
+    public WebDriver getDriver(String browser) {
+        WebDriver driver = null;
+       // setDriver(browser);
+        threadedBrowser.set(browser);
+        if (threadedDriver.get() == null) {
+            try {
+                if (browser.equalsIgnoreCase("chrome")) {
+                    ChromeOptions options = setChromeOptions();
+                     driver = new ChromeDriver(options);
+                    threadedDriver.set(driver);
+                }
+                if (browser.equalsIgnoreCase("firefox")) {
+                    FirefoxOptions options = setFFOptions();
+                    driver = new FirefoxDriver(options);
+                    threadedDriver.set(driver);
+                }
+                if (browser.equalsIgnoreCase("Edge")) {
+                    EdgeOptions options = setEdgeOptions();
+                    driver = new EdgeDriver(options);
+                    threadedDriver.set(driver);
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+            threadedDriver.get().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+            threadedDriver.get().manage().window().maximize();
+        }
+        return threadedDriver.get();
+    }
+
+    public String getBrowser()
+    {
+        return threadedBrowser.get();
+    }
+
+public ChromeOptions setChromeOptions()
+{
+    ChromeOptions options = new ChromeOptions();
+     options.addArguments("disable-infobars");
+    return options;
+
+}
+
+public FirefoxOptions setFFOptions()
+{
+    FirefoxOptions options = new FirefoxOptions();
+  //  options.setCapability(CapabilityType.BROWSER_NAME,"FirefoxBrowser");
+    options.addPreference("dom.webnotifications.enabled", "false");
+    return options;
+}
+    public EdgeOptions setEdgeOptions()
+    {
+        EdgeOptions edgeoptions = new EdgeOptions();
+        edgeoptions.addArguments("--start-maximized");
+        return edgeoptions;
+    }
+}

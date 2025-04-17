@@ -1,0 +1,6 @@
+11:52:59.013 INFO  base.CustomDriver -Element List found with: xpath=>//div[@class='zen-course-list']
+11:52:59.029 INFO  base.CustomDriver -Element found with :xpath=>//a[text()='ALL COURSES']
+11:52:59.825 INFO  base.CustomDriver -Element clicked All Courses Link
+11:52:59.847 INFO  base.CustomDriver -Element found with :name=>course
+11:52:59.977 INFO  base.CustomDriver -Send Keys on element :: Enter Course with data :: Rest API
+11:52:59.992 INFO  base.CustomDriver -Element found with :xpath=>//button[@type='submit']

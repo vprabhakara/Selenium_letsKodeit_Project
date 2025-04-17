@@ -1,0 +1,5 @@
+11:52:58.795 INFO  base.CustomDriver -Element clicked All Courses Link
+11:52:58.823 INFO  base.CustomDriver -Element found with :name=>course
+11:52:58.913 INFO  base.CustomDriver -Send Keys on element :: Enter Course with data :: Test Automation
+11:52:58.928 INFO  base.CustomDriver -Element found with :xpath=>//button[@type='submit']
+11:52:58.998 INFO  base.CustomDriver -Element clicked Click Search Course Button

@@ -1,0 +1,5 @@
+11:07:46.091 TRACE overview.LoggingDemo -Trace message logged
+11:07:46.099 TRACE overview.LoggingDemo -Debug message logged
+11:07:46.099 TRACE overview.LoggingDemo -INFO message logged
+11:07:46.099 TRACE overview.LoggingDemo -ERROR message logged
+11:07:46.099 TRACE overview.LoggingDemo -FATAL message logged
