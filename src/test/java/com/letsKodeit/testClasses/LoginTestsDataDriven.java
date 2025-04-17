@@ -39,14 +39,14 @@ public class LoginTestsDataDriven extends BaseTest {
     }
 
     @Test(dataProvider = "verifyLogin")
-    public void testValidlogin(String username,String password)
-    {
+    public void testValidlogin(String username,String password) throws InterruptedException {
         nav = login.signIN(username,password);
 
         //  boolean result =nav.isUserLoggedIn();
 
         boolean verifyHeader=nav.verifyHeader();
         Checkpoint.mark("test-01",verifyHeader,"Verify Header");
+        Thread.sleep(3000);
         boolean result = nav.isUserLoggedIn();
         Checkpoint.markFinal("test-01",result,"Login verification");
         //Assert.assertTrue(result);

@@ -30,21 +30,21 @@ public class LoginTests extends BaseTest {
         {
             nav.logout();
            // Thread.sleep(2000);
-            nav.login();
+            //nav.login();
         }
     }
 
     @Test
-    public void testValidlogin()
-    {
+    public void testValidlogin() throws InterruptedException {
         nav = login.signIN(Constants.DEFAULT_USERNAME,Constants.DEFAULT_PASSWORD);
       //  boolean result =nav.isUserLoggedIn();
 
         boolean verifyHeader=nav.verifyHeader();
         Checkpoint.mark("test-01",verifyHeader," Header Verification");
+        Thread.sleep(3000);
        boolean result = nav.isUserLoggedIn();
-        Checkpoint.markFinal("test-01",result,"Login verification");
-        //Assert.assertTrue(result);
+        //Checkpoint.markFinal("test-01",result,"Login verification");
+        Assert.assertTrue(result);
 
     }
     @Test(enabled = false)

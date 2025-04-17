@@ -55,7 +55,7 @@ public class NavigationPage extends BasePage {
     public LoginPage login()
     {
         //WebElement signIn = driver.findElement(By.xpath(SIGNIN));
-        clickWhenReady(LOGIN,10);
+       clickWhenReady(LOGIN,10);
 
         return new LoginPage(driver);
     }
@@ -84,7 +84,7 @@ public class NavigationPage extends BasePage {
    public boolean verifyHeader()
     {
         String actText =  getText(ALL_COURSES,"All courses");
-        return Utility.verifyTextContains(actText,"All Coursessss");
+        return Utility.verifyTextContains(actText,"All Courses");
 
 
 

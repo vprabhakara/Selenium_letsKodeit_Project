@@ -1,68 +1,365 @@
-10:06:54.063 INFO  Utilities.Utility -Date and Time :: 04_16_2025 10_06_54
-10:06:54.445 INFO  base.TestListeners -onStart---> Test Tag Name:ApplicationTest
-10:06:54.445 INFO  base.TestListeners -These methods will be executed 
-10:06:54.445 INFO  base.TestListeners -verifySearchTest
-10:06:54.445 INFO  base.TestListeners -testValidlogin
-10:06:59.037 INFO  base.CustomDriver -Waiting for max10secs to be clickable
-10:06:59.956 INFO  base.CustomDriver -Element found with :id=>email
-10:07:00.084 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: test@email.com
-10:07:00.095 INFO  base.CustomDriver -Element found with :id=>login-password
-10:07:00.176 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: abcabc
-10:07:00.188 INFO  base.CustomDriver -Element found with :id=>login
-10:07:00.255 INFO  base.CustomDriver -Element clicked Login Button
-10:07:00.270 INFO  base.CustomDriver -Element found with :xpath=>//a[text()='ALL COURSES']
-10:07:00.284 INFO  base.CustomDriver -Text is found--->ALL COURSES
-10:07:00.285 INFO  Utilities.Utility -Actual Text From Web Application UI   --> : ALL COURSES
-10:07:00.285 INFO  Utilities.Utility -Expected Text From Web Application UI --> : All Coursessss
-10:07:00.285 INFO  Utilities.Utility -### Verification DOES NOT Contains !!!
-10:07:00.285 INFO  base.Checkpoint -test-01. Header Verification :-> FAIL
-10:07:01.800 INFO  base.CustomDriver -Element found with :xpath=>//img[@class='zl-navbar-rhs-img ']
-10:07:01.817 INFO  base.Checkpoint -test-01.Login verification :-> PASS
-10:07:01.817 INFO  base.Checkpoint -Test Method Failed
-10:07:01.824 INFO  base.TestListeners -onTestFailure ->Test Method Name testValidlogin
-10:07:01.827 INFO  Utilities.Utility -Date and Time :: 04_16_2025 10_07_01
-10:07:02.177 INFO  base.CustomDriver -Element found with :xpath=>//img[@class='zl-navbar-rhs-img ']
-10:07:02.197 INFO  base.CustomDriver -Element found with :xpath=>//img[@class='zl-navbar-rhs-img ']
-10:07:02.255 INFO  base.CustomDriver -Element clicked Account Click
-10:07:02.258 INFO  base.CustomDriver -Waiting for max:: PT10S seconds for element to be available
-10:07:02.282 INFO  base.CustomDriver -Element appeared on the web page
-10:07:02.342 INFO  base.CustomDriver -Element clicked Logout link
-10:07:02.345 INFO  base.CustomDriver -Waiting for max10secs to be clickable
-10:07:04.852 INFO  base.CustomDriver -Waiting for max10secs to be clickable
-10:07:05.435 INFO  base.CustomDriver -Element found with :id=>email
-10:07:05.613 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: test@email.com
-10:07:05.623 INFO  base.CustomDriver -Element found with :id=>login-password
-10:07:05.704 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: abcabc
-10:07:05.712 INFO  base.CustomDriver -Element found with :id=>login
-10:07:05.765 INFO  base.CustomDriver -Element clicked Login Button
-10:07:06.250 INFO  base.CustomDriver -Element found with :xpath=>//a[text()='ALL COURSES']
-10:07:07.149 ERROR base.CustomDriver -Element is not clickedAll Courses Link
-10:07:10.223 ERROR base.CustomDriver -Element Not found withname=>course
-10:07:10.228 ERROR base.CustomDriver -Cannot send keys on element :: Enter Course with data :: Test Automation
-10:07:13.309 ERROR base.CustomDriver -Element Not found withxpath=>//button[@type='submit']
-10:07:13.313 ERROR base.CustomDriver -Element is not clickedClick Search Course Button
-10:07:13.343 INFO  base.CustomDriver -Element List found with: xpath=>//div[@class='zen-course-list']
-10:07:13.343 INFO  base.Checkpoint -test-02.search course verification :-> PASS
-10:07:13.344 INFO  base.Checkpoint -Test Method succeeded
-10:07:13.344 INFO  base.TestListeners -onTestSuccess ->Test Method Name verifySearchTest
-10:07:13.361 INFO  base.CustomDriver -Element found with :xpath=>//a[text()='ALL COURSES']
-10:07:16.635 INFO  base.CustomDriver -Element clicked All Courses Link
-10:07:16.646 INFO  base.CustomDriver -Element found with :name=>course
-10:07:16.725 INFO  base.CustomDriver -Send Keys on element :: Enter Course with data :: Rest API
-10:07:16.738 INFO  base.CustomDriver -Element found with :xpath=>//button[@type='submit']
-10:07:16.795 INFO  base.CustomDriver -Element clicked Click Search Course Button
-10:07:16.812 INFO  base.CustomDriver -Element List found with: xpath=>//div[@class='zen-course-list']
-10:07:16.812 INFO  base.Checkpoint -test-02.search course verification :-> PASS
-10:07:16.813 INFO  base.Checkpoint -Test Method succeeded
-10:07:16.813 INFO  base.TestListeners -onTestSuccess ->Test Method Name verifySearchTest
-10:07:16.824 INFO  base.CustomDriver -Element found with :xpath=>//a[text()='ALL COURSES']
-10:07:17.723 INFO  base.CustomDriver -Element clicked All Courses Link
-10:07:17.735 INFO  base.CustomDriver -Element found with :name=>course
-10:07:17.811 INFO  base.CustomDriver -Send Keys on element :: Enter Course with data :: JavaScript
-10:07:17.824 INFO  base.CustomDriver -Element found with :xpath=>//button[@type='submit']
-10:07:17.878 INFO  base.CustomDriver -Element clicked Click Search Course Button
-10:07:17.894 INFO  base.CustomDriver -Element List found with: xpath=>//div[@class='zen-course-list']
-10:07:17.894 INFO  base.Checkpoint -test-02.search course verification :-> PASS
-10:07:17.894 INFO  base.Checkpoint -Test Method succeeded
-10:07:17.894 INFO  base.TestListeners -onTestSuccess ->Test Method Name verifySearchTest
-10:07:18.163 INFO  base.TestListeners -onFinish Test Tag Name ->ApplicationTest
+11:00:03.371 INFO  Utilities.Utility -Date and Time :: 04_17_2025 11_00_03
+11:00:03.692 INFO  base.TestListeners -onStart---> Test Tag Name:ApplicationTest
+11:00:03.692 INFO  base.TestListeners -These methods will be executed 
+11:00:03.692 INFO  base.TestListeners -verifySearchTest
+11:00:03.692 INFO  base.TestListeners -testValidlogin
+11:00:07.372 INFO  base.CustomDriver -Waiting for max10secs to be clickable
+11:00:08.358 INFO  base.CustomDriver -Element found with :id=>email
+11:00:08.467 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: test@email.com
+11:00:08.480 INFO  base.CustomDriver -Element found with :id=>login-password
+11:00:08.560 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: abcabc
+11:00:08.575 INFO  base.CustomDriver -Element found with :id=>login
+11:00:08.646 INFO  base.CustomDriver -Element clicked Login Button
+11:00:08.660 INFO  base.CustomDriver -Element found with :xpath=>//a[text()='ALL COURSES']
+11:00:08.672 INFO  base.CustomDriver -Text is found--->ALL COURSES
+11:00:08.673 INFO  Utilities.Utility -Actual Text From Web Application UI   --> : ALL COURSES
+11:00:08.673 INFO  Utilities.Utility -Expected Text From Web Application UI --> : All Coursessss
+11:00:08.673 INFO  Utilities.Utility -### Verification DOES NOT Contains !!!
+11:00:08.673 INFO  base.Checkpoint -test-01. Header Verification :-> FAIL
+11:00:09.874 INFO  base.CustomDriver -Element found with :xpath=>//img[@class='zl-navbar-rhs-img ']
+11:00:09.888 INFO  base.Checkpoint -test-01.Login verification :-> PASS
+11:00:09.888 INFO  base.Checkpoint -Test Method Failed
+11:00:09.895 INFO  base.TestListeners -onTestFailure ->Test Method Name testValidlogin
+11:00:09.903 INFO  Utilities.Utility -Date and Time :: 04_17_2025 11_00_09
+11:00:10.161 INFO  base.CustomDriver -Element found with :xpath=>//img[@class='zl-navbar-rhs-img ']
+11:00:10.203 INFO  base.CustomDriver -Element found with :xpath=>//img[@class='zl-navbar-rhs-img ']
+11:00:10.305 INFO  base.CustomDriver -Element clicked Account Click
+11:00:10.317 INFO  base.CustomDriver -Waiting for max:: PT10S seconds for element to be available
+11:00:10.359 INFO  base.CustomDriver -Element appeared on the web page
+11:00:10.811 INFO  base.CustomDriver -Element clicked Logout link
+11:00:10.820 INFO  base.CustomDriver -Waiting for max10secs to be clickable
+11:00:12.676 INFO  base.CustomDriver -Waiting for max10secs to be clickable
+11:00:13.188 INFO  base.CustomDriver -Element found with :id=>email
+11:00:13.273 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: test@email.com
+11:00:13.286 INFO  base.CustomDriver -Element found with :id=>login-password
+11:00:13.375 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: abcabc
+11:00:13.385 INFO  base.CustomDriver -Element found with :id=>login
+11:00:13.448 INFO  base.CustomDriver -Element clicked Login Button
+11:00:14.464 INFO  base.CustomDriver -Element found with :xpath=>//a[text()='ALL COURSES']
+11:00:17.107 INFO  base.CustomDriver -Element clicked All Courses Link
+11:00:17.137 INFO  base.CustomDriver -Element found with :name=>course
+11:00:17.275 INFO  base.CustomDriver -Send Keys on element :: Enter Course with data :: Test Automation
+11:00:17.289 INFO  base.CustomDriver -Element found with :xpath=>//button[@type='submit']
+11:00:17.350 INFO  base.CustomDriver -Element clicked Click Search Course Button
+11:00:17.370 INFO  base.CustomDriver -Element List found with: xpath=>//div[@class='zen-course-list']
+11:00:17.371 INFO  base.Checkpoint -test-02.search course verification :-> PASS
+11:00:17.371 INFO  base.Checkpoint -Test Method succeeded
+11:00:17.371 INFO  base.TestListeners -onTestSuccess ->Test Method Name verifySearchTest
+11:00:17.381 INFO  base.CustomDriver -Element found with :xpath=>//a[text()='ALL COURSES']
+11:00:18.071 INFO  base.CustomDriver -Element clicked All Courses Link
+11:00:18.084 INFO  base.CustomDriver -Element found with :name=>course
+11:00:18.173 INFO  base.CustomDriver -Send Keys on element :: Enter Course with data :: Rest API
+11:00:18.182 INFO  base.CustomDriver -Element found with :xpath=>//button[@type='submit']
+11:00:18.243 INFO  base.CustomDriver -Element clicked Click Search Course Button
+11:00:18.253 INFO  base.CustomDriver -Element List found with: xpath=>//div[@class='zen-course-list']
+11:00:18.253 INFO  base.Checkpoint -test-02.search course verification :-> PASS
+11:00:18.253 INFO  base.Checkpoint -Test Method succeeded
+11:00:18.253 INFO  base.TestListeners -onTestSuccess ->Test Method Name verifySearchTest
+11:00:18.267 INFO  base.CustomDriver -Element found with :xpath=>//a[text()='ALL COURSES']
+11:00:19.144 INFO  base.CustomDriver -Element clicked All Courses Link
+11:00:19.156 INFO  base.CustomDriver -Element found with :name=>course
+11:00:19.242 INFO  base.CustomDriver -Send Keys on element :: Enter Course with data :: JavaScript
+11:00:19.252 INFO  base.CustomDriver -Element found with :xpath=>//button[@type='submit']
+11:00:19.316 INFO  base.CustomDriver -Element clicked Click Search Course Button
+11:00:19.324 INFO  base.CustomDriver -Element List found with: xpath=>//div[@class='zen-course-list']
+11:00:19.324 INFO  base.Checkpoint -test-02.search course verification :-> PASS
+11:00:19.325 INFO  base.Checkpoint -Test Method succeeded
+11:00:19.325 INFO  base.TestListeners -onTestSuccess ->Test Method Name verifySearchTest
+11:00:19.525 INFO  base.TestListeners -onFinish Test Tag Name ->ApplicationTest
+11:05:10.612 INFO  Utilities.Utility -Date and Time :: 04_17_2025 11_05_10
+11:05:10.926 INFO  base.TestListeners -onStart---> Test Tag Name:ApplicationTest
+11:05:10.926 INFO  base.TestListeners -These methods will be executed 
+11:05:10.926 INFO  base.TestListeners -verifySearchTest
+11:05:10.926 INFO  base.TestListeners -testValidlogin
+11:05:14.564 INFO  base.CustomDriver -Waiting for max10secs to be clickable
+11:05:15.455 INFO  base.CustomDriver -Element found with :id=>email
+11:05:15.561 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: test@email.com
+11:05:15.574 INFO  base.CustomDriver -Element found with :id=>login-password
+11:05:15.653 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: abcabc
+11:05:15.665 INFO  base.CustomDriver -Element found with :id=>login
+11:05:15.735 INFO  base.CustomDriver -Element clicked Login Button
+11:05:15.749 INFO  base.CustomDriver -Element found with :xpath=>//a[text()='ALL COURSES']
+11:05:15.764 INFO  base.CustomDriver -Text is found--->ALL COURSES
+11:05:15.764 INFO  Utilities.Utility -Actual Text From Web Application UI   --> : ALL COURSES
+11:05:15.764 INFO  Utilities.Utility -Expected Text From Web Application UI --> : All Coursessss
+11:05:15.764 INFO  Utilities.Utility -### Verification DOES NOT Contains !!!
+11:05:15.764 INFO  base.Checkpoint -test-01. Header Verification :-> FAIL
+11:05:17.082 INFO  base.CustomDriver -Element found with :xpath=>//img[@class='zl-navbar-rhs-img ']
+11:05:17.103 INFO  base.Checkpoint -test-01.Login verification :-> PASS
+11:05:17.103 INFO  base.Checkpoint -Test Method Failed
+11:05:17.112 INFO  base.TestListeners -onTestFailure ->Test Method Name testValidlogin
+11:05:17.117 INFO  Utilities.Utility -Date and Time :: 04_17_2025 11_05_17
+11:05:17.402 INFO  base.CustomDriver -Element found with :xpath=>//img[@class='zl-navbar-rhs-img ']
+11:05:17.419 INFO  base.CustomDriver -Element found with :xpath=>//img[@class='zl-navbar-rhs-img ']
+11:05:17.483 INFO  base.CustomDriver -Element clicked Account Click
+11:05:17.486 INFO  base.CustomDriver -Waiting for max:: PT10S seconds for element to be available
+11:05:17.512 INFO  base.CustomDriver -Element appeared on the web page
+11:05:17.977 INFO  base.CustomDriver -Element clicked Logout link
+11:05:17.987 INFO  base.CustomDriver -Waiting for max10secs to be clickable
+11:05:19.909 INFO  base.CustomDriver -Waiting for max10secs to be clickable
+11:05:20.538 INFO  base.CustomDriver -Element found with :id=>email
+11:05:20.660 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: test@email.com
+11:05:20.669 INFO  base.CustomDriver -Element found with :id=>login-password
+11:05:20.751 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: abcabc
+11:05:20.765 INFO  base.CustomDriver -Element found with :id=>login
+11:05:20.822 INFO  base.CustomDriver -Element clicked Login Button
+11:05:21.990 INFO  base.CustomDriver -Element found with :xpath=>//a[text()='ALL COURSES']
+11:05:24.483 INFO  base.CustomDriver -Element clicked All Courses Link
+11:05:24.519 INFO  base.CustomDriver -Element found with :name=>course
+11:05:24.653 INFO  base.CustomDriver -Send Keys on element :: Enter Course with data :: Test Automation
+11:05:24.667 INFO  base.CustomDriver -Element found with :xpath=>//button[@type='submit']
+11:05:24.742 INFO  base.CustomDriver -Element clicked Click Search Course Button
+11:05:24.756 INFO  base.CustomDriver -Element List found with: xpath=>//div[@class='zen-course-list']
+11:05:24.757 INFO  base.Checkpoint -test-02.search course verification :-> PASS
+11:05:24.757 INFO  base.Checkpoint -Test Method succeeded
+11:05:24.757 INFO  base.TestListeners -onTestSuccess ->Test Method Name verifySearchTest
+11:05:24.772 INFO  base.CustomDriver -Element found with :xpath=>//a[text()='ALL COURSES']
+11:05:25.450 INFO  base.CustomDriver -Element clicked All Courses Link
+11:05:25.466 INFO  base.CustomDriver -Element found with :name=>course
+11:05:25.557 INFO  base.CustomDriver -Send Keys on element :: Enter Course with data :: Rest API
+11:05:25.566 INFO  base.CustomDriver -Element found with :xpath=>//button[@type='submit']
+11:05:25.634 INFO  base.CustomDriver -Element clicked Click Search Course Button
+11:05:25.645 INFO  base.CustomDriver -Element List found with: xpath=>//div[@class='zen-course-list']
+11:05:25.645 INFO  base.Checkpoint -test-02.search course verification :-> PASS
+11:05:25.645 INFO  base.Checkpoint -Test Method succeeded
+11:05:25.646 INFO  base.TestListeners -onTestSuccess ->Test Method Name verifySearchTest
+11:05:25.660 INFO  base.CustomDriver -Element found with :xpath=>//a[text()='ALL COURSES']
+11:05:26.426 INFO  base.CustomDriver -Element clicked All Courses Link
+11:05:26.440 INFO  base.CustomDriver -Element found with :name=>course
+11:05:26.532 INFO  base.CustomDriver -Send Keys on element :: Enter Course with data :: JavaScript
+11:05:26.543 INFO  base.CustomDriver -Element found with :xpath=>//button[@type='submit']
+11:05:26.598 INFO  base.CustomDriver -Element clicked Click Search Course Button
+11:05:26.612 INFO  base.CustomDriver -Element List found with: xpath=>//div[@class='zen-course-list']
+11:05:26.612 INFO  base.Checkpoint -test-02.search course verification :-> PASS
+11:05:26.612 INFO  base.Checkpoint -Test Method succeeded
+11:05:26.612 INFO  base.TestListeners -onTestSuccess ->Test Method Name verifySearchTest
+11:05:26.800 INFO  base.TestListeners -onFinish Test Tag Name ->ApplicationTest
+11:06:14.093 INFO  Utilities.Utility -Date and Time :: 04_17_2025 11_06_14
+11:06:14.446 INFO  base.TestListeners -onStart---> Test Tag Name:ApplicationTest
+11:06:14.447 INFO  base.TestListeners -These methods will be executed 
+11:06:14.447 INFO  base.TestListeners -verifySearchTest
+11:06:14.447 INFO  base.TestListeners -testValidlogin
+11:06:17.751 INFO  base.CustomDriver -Waiting for max10secs to be clickable
+11:06:18.382 INFO  base.CustomDriver -Element found with :id=>email
+11:06:18.516 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: test@email.com
+11:06:18.528 INFO  base.CustomDriver -Element found with :id=>login-password
+11:06:18.600 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: abcabc
+11:06:18.612 INFO  base.CustomDriver -Element found with :id=>login
+11:06:18.675 INFO  base.CustomDriver -Element clicked Login Button
+11:06:18.687 INFO  base.CustomDriver -Element found with :xpath=>//a[text()='ALL COURSES']
+11:06:18.701 INFO  base.CustomDriver -Text is found--->ALL COURSES
+11:06:18.701 INFO  Utilities.Utility -Actual Text From Web Application UI   --> : ALL COURSES
+11:06:18.701 INFO  Utilities.Utility -Expected Text From Web Application UI --> : All Coursessss
+11:06:18.701 INFO  Utilities.Utility -### Verification DOES NOT Contains !!!
+11:06:18.701 INFO  base.Checkpoint -test-01. Header Verification :-> FAIL
+11:06:21.749 INFO  base.CustomDriver -Element found with :xpath=>//img[@class='zl-navbar-rhs-img ']
+11:06:21.781 INFO  base.Checkpoint -test-01.Login verification :-> PASS
+11:06:21.781 INFO  base.Checkpoint -Test Method Failed
+11:06:21.799 INFO  base.TestListeners -onTestFailure ->Test Method Name testValidlogin
+11:06:21.807 INFO  Utilities.Utility -Date and Time :: 04_17_2025 11_06_21
+11:06:22.095 INFO  base.CustomDriver -Element found with :xpath=>//img[@class='zl-navbar-rhs-img ']
+11:06:22.115 INFO  base.CustomDriver -Element found with :xpath=>//img[@class='zl-navbar-rhs-img ']
+11:06:22.176 INFO  base.CustomDriver -Element clicked Account Click
+11:06:22.180 INFO  base.CustomDriver -Waiting for max:: PT10S seconds for element to be available
+11:06:22.224 INFO  base.CustomDriver -Element appeared on the web page
+11:06:22.284 INFO  base.CustomDriver -Element clicked Logout link
+11:06:22.289 INFO  base.CustomDriver -Waiting for max10secs to be clickable
+11:06:24.660 INFO  base.CustomDriver -Waiting for max10secs to be clickable
+11:06:25.156 INFO  base.CustomDriver -Element found with :id=>email
+11:06:25.248 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: test@email.com
+11:06:25.258 INFO  base.CustomDriver -Element found with :id=>login-password
+11:06:25.340 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: abcabc
+11:06:25.349 INFO  base.CustomDriver -Element found with :id=>login
+11:06:25.407 INFO  base.CustomDriver -Element clicked Login Button
+11:06:26.551 INFO  base.CustomDriver -Element found with :xpath=>//a[text()='ALL COURSES']
+11:06:29.233 INFO  base.CustomDriver -Element clicked All Courses Link
+11:06:29.263 INFO  base.CustomDriver -Element found with :name=>course
+11:06:29.450 INFO  base.CustomDriver -Send Keys on element :: Enter Course with data :: Test Automation
+11:06:29.465 INFO  base.CustomDriver -Element found with :xpath=>//button[@type='submit']
+11:06:29.547 INFO  base.CustomDriver -Element clicked Click Search Course Button
+11:06:29.563 INFO  base.CustomDriver -Element List found with: xpath=>//div[@class='zen-course-list']
+11:06:29.563 INFO  base.Checkpoint -test-02.search course verification :-> PASS
+11:06:29.563 INFO  base.Checkpoint -Test Method succeeded
+11:06:29.563 INFO  base.TestListeners -onTestSuccess ->Test Method Name verifySearchTest
+11:06:29.577 INFO  base.CustomDriver -Element found with :xpath=>//a[text()='ALL COURSES']
+11:06:30.269 INFO  base.CustomDriver -Element clicked All Courses Link
+11:06:30.281 INFO  base.CustomDriver -Element found with :name=>course
+11:06:30.362 INFO  base.CustomDriver -Send Keys on element :: Enter Course with data :: Rest API
+11:06:30.370 INFO  base.CustomDriver -Element found with :xpath=>//button[@type='submit']
+11:06:30.439 INFO  base.CustomDriver -Element clicked Click Search Course Button
+11:06:30.450 INFO  base.CustomDriver -Element List found with: xpath=>//div[@class='zen-course-list']
+11:06:30.450 INFO  base.Checkpoint -test-02.search course verification :-> PASS
+11:06:30.451 INFO  base.Checkpoint -Test Method succeeded
+11:06:30.451 INFO  base.TestListeners -onTestSuccess ->Test Method Name verifySearchTest
+11:06:30.467 INFO  base.CustomDriver -Element found with :xpath=>//a[text()='ALL COURSES']
+11:06:31.380 INFO  base.CustomDriver -Element clicked All Courses Link
+11:06:31.407 INFO  base.CustomDriver -Element found with :name=>course
+11:06:31.548 INFO  base.CustomDriver -Send Keys on element :: Enter Course with data :: JavaScript
+11:06:31.559 INFO  base.CustomDriver -Element found with :xpath=>//button[@type='submit']
+11:06:31.620 INFO  base.CustomDriver -Element clicked Click Search Course Button
+11:06:31.631 INFO  base.CustomDriver -Element List found with: xpath=>//div[@class='zen-course-list']
+11:06:31.631 INFO  base.Checkpoint -test-02.search course verification :-> PASS
+11:06:31.632 INFO  base.Checkpoint -Test Method succeeded
+11:06:31.632 INFO  base.TestListeners -onTestSuccess ->Test Method Name verifySearchTest
+11:06:31.906 INFO  base.TestListeners -onFinish Test Tag Name ->ApplicationTest
+11:08:12.547 INFO  Utilities.Utility -Date and Time :: 04_17_2025 11_08_12
+11:08:12.866 INFO  base.TestListeners -onStart---> Test Tag Name:ApplicationTest
+11:08:12.866 INFO  base.TestListeners -These methods will be executed 
+11:08:12.866 INFO  base.TestListeners -testValidlogin
+11:08:16.800 INFO  base.CustomDriver -Waiting for max10secs to be clickable
+11:08:17.591 INFO  base.CustomDriver -Element found with :id=>email
+11:08:17.687 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: test@email.com
+11:08:17.700 INFO  base.CustomDriver -Element found with :id=>login-password
+11:08:17.791 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: abcabc
+11:08:17.803 INFO  base.CustomDriver -Element found with :id=>login
+11:08:17.873 INFO  base.CustomDriver -Element clicked Login Button
+11:08:17.887 INFO  base.CustomDriver -Element found with :xpath=>//a[text()='ALL COURSES']
+11:08:17.901 INFO  base.CustomDriver -Text is found--->ALL COURSES
+11:08:17.901 INFO  Utilities.Utility -Actual Text From Web Application UI   --> : ALL COURSES
+11:08:17.901 INFO  Utilities.Utility -Expected Text From Web Application UI --> : All Coursessss
+11:08:17.901 INFO  Utilities.Utility -### Verification DOES NOT Contains !!!
+11:08:17.901 INFO  base.Checkpoint -test-01. Header Verification :-> FAIL
+11:08:20.941 INFO  base.CustomDriver -Element found with :xpath=>//img[@class='zl-navbar-rhs-img ']
+11:08:20.974 INFO  base.Checkpoint -test-01.Login verification :-> PASS
+11:08:20.975 INFO  base.Checkpoint -Test Method Failed
+11:08:20.994 INFO  base.TestListeners -onTestFailure ->Test Method Name testValidlogin
+11:08:21.002 INFO  Utilities.Utility -Date and Time :: 04_17_2025 11_08_21
+11:08:21.314 INFO  base.CustomDriver -Element found with :xpath=>//img[@class='zl-navbar-rhs-img ']
+11:08:21.345 INFO  base.CustomDriver -Element found with :xpath=>//img[@class='zl-navbar-rhs-img ']
+11:08:21.409 INFO  base.CustomDriver -Element clicked Account Click
+11:08:21.414 INFO  base.CustomDriver -Waiting for max:: PT10S seconds for element to be available
+11:08:21.438 INFO  base.CustomDriver -Element appeared on the web page
+11:08:21.503 INFO  base.CustomDriver -Element clicked Logout link
+11:08:21.506 INFO  base.CustomDriver -Waiting for max10secs to be clickable
+11:08:23.333 INFO  base.TestListeners -onFinish Test Tag Name ->ApplicationTest
+11:10:35.829 INFO  Utilities.Utility -Date and Time :: 04_17_2025 11_10_35
+11:10:36.142 INFO  base.TestListeners -onStart---> Test Tag Name:ApplicationTest
+11:10:36.142 INFO  base.TestListeners -These methods will be executed 
+11:10:36.142 INFO  base.TestListeners -testValidlogin
+11:10:39.868 INFO  base.TestListeners -onTestSkipped -> Test Method Name: testValidlogin
+11:10:39.882 INFO  base.TestListeners -onFinish Test Tag Name ->ApplicationTest
+11:10:52.819 INFO  Utilities.Utility -Date and Time :: 04_17_2025 11_10_52
+11:10:53.153 INFO  base.TestListeners -onStart---> Test Tag Name:ApplicationTest
+11:10:53.153 INFO  base.TestListeners -These methods will be executed 
+11:10:53.153 INFO  base.TestListeners -testValidlogin
+11:10:56.833 INFO  base.TestListeners -onTestSkipped -> Test Method Name: testValidlogin
+11:10:56.847 INFO  base.TestListeners -onFinish Test Tag Name ->ApplicationTest
+11:11:55.457 INFO  Utilities.Utility -Date and Time :: 04_17_2025 11_11_55
+11:11:55.775 INFO  base.TestListeners -onStart---> Test Tag Name:ApplicationTest
+11:11:55.775 INFO  base.TestListeners -These methods will be executed 
+11:11:55.775 INFO  base.TestListeners -testValidlogin
+11:11:59.419 INFO  base.CustomDriver -Waiting for max10secs to be clickable
+11:12:00.114 INFO  base.CustomDriver -Element found with :id=>email
+11:12:00.209 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: test@email.com
+11:12:00.223 INFO  base.CustomDriver -Element found with :id=>login-password
+11:12:00.299 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: abcabc
+11:12:00.311 INFO  base.CustomDriver -Element found with :id=>login
+11:12:00.379 INFO  base.CustomDriver -Element clicked Login Button
+11:12:00.392 INFO  base.CustomDriver -Element found with :xpath=>//a[text()='ALL COURSES']
+11:12:00.408 INFO  base.CustomDriver -Text is found--->ALL COURSES
+11:12:00.408 INFO  Utilities.Utility -Actual Text From Web Application UI   --> : ALL COURSES
+11:12:00.408 INFO  Utilities.Utility -Expected Text From Web Application UI --> : All Coursessss
+11:12:00.408 INFO  Utilities.Utility -### Verification DOES NOT Contains !!!
+11:12:00.408 INFO  base.Checkpoint -test-01. Header Verification :-> FAIL
+11:12:03.464 INFO  base.CustomDriver -Element found with :xpath=>//img[@class='zl-navbar-rhs-img ']
+11:12:03.495 INFO  base.Checkpoint -test-01.Login verification :-> PASS
+11:12:03.496 INFO  base.Checkpoint -Test Method Failed
+11:12:03.512 INFO  base.TestListeners -onTestFailure ->Test Method Name testValidlogin
+11:12:03.520 INFO  Utilities.Utility -Date and Time :: 04_17_2025 11_12_03
+11:12:03.847 INFO  base.CustomDriver -Element found with :xpath=>//img[@class='zl-navbar-rhs-img ']
+11:12:03.884 INFO  base.CustomDriver -Element found with :xpath=>//img[@class='zl-navbar-rhs-img ']
+11:12:03.952 INFO  base.CustomDriver -Element clicked Account Click
+11:12:03.955 INFO  base.CustomDriver -Waiting for max:: PT10S seconds for element to be available
+11:12:03.985 INFO  base.CustomDriver -Element appeared on the web page
+11:12:05.797 INFO  base.CustomDriver -Element clicked Logout link
+11:12:05.998 INFO  base.TestListeners -onFinish Test Tag Name ->ApplicationTest
+11:13:03.684 INFO  Utilities.Utility -Date and Time :: 04_17_2025 11_13_03
+11:13:03.988 INFO  base.TestListeners -onStart---> Test Tag Name:ApplicationTest
+11:13:03.988 INFO  base.TestListeners -These methods will be executed 
+11:13:03.988 INFO  base.TestListeners -testValidlogin
+11:13:07.416 INFO  base.CustomDriver -Waiting for max10secs to be clickable
+11:13:08.224 INFO  base.CustomDriver -Element found with :id=>email
+11:13:08.318 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: test@email.com
+11:13:08.330 INFO  base.CustomDriver -Element found with :id=>login-password
+11:13:08.408 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: abcabc
+11:13:08.421 INFO  base.CustomDriver -Element found with :id=>login
+11:13:08.489 INFO  base.CustomDriver -Element clicked Login Button
+11:13:08.507 INFO  base.CustomDriver -Element found with :xpath=>//a[text()='ALL COURSES']
+11:13:08.521 INFO  base.CustomDriver -Text is found--->ALL COURSES
+11:13:08.522 INFO  Utilities.Utility -Actual Text From Web Application UI   --> : ALL COURSES
+11:13:08.522 INFO  Utilities.Utility -Expected Text From Web Application UI --> : All Coursessss
+11:13:08.522 INFO  Utilities.Utility -### Verification DOES NOT Contains !!!
+11:13:08.522 INFO  base.Checkpoint -test-01. Header Verification :-> FAIL
+11:13:11.574 INFO  base.CustomDriver -Element found with :xpath=>//img[@class='zl-navbar-rhs-img ']
+11:13:11.613 INFO  base.TestListeners -onTestSuccess ->Test Method Name testValidlogin
+11:13:11.650 INFO  base.CustomDriver -Element found with :xpath=>//img[@class='zl-navbar-rhs-img ']
+11:13:11.698 INFO  base.CustomDriver -Element found with :xpath=>//img[@class='zl-navbar-rhs-img ']
+11:13:11.764 INFO  base.CustomDriver -Element clicked Account Click
+11:13:11.768 INFO  base.CustomDriver -Waiting for max:: PT10S seconds for element to be available
+11:13:11.791 INFO  base.CustomDriver -Element appeared on the web page
+11:13:12.254 INFO  base.CustomDriver -Element clicked Logout link
+11:13:12.522 INFO  base.TestListeners -onFinish Test Tag Name ->ApplicationTest
+11:17:36.048 INFO  Utilities.Utility -Date and Time :: 04_17_2025 11_17_36
+11:17:36.382 INFO  base.TestListeners -onStart---> Test Tag Name:ApplicationTest
+11:17:36.383 INFO  base.TestListeners -These methods will be executed 
+11:17:36.383 INFO  base.TestListeners -verifySearchTest
+11:17:36.383 INFO  base.TestListeners -testValidlogin
+11:17:40.052 INFO  base.CustomDriver -Waiting for max10secs to be clickable
+11:17:41.192 INFO  base.CustomDriver -Element found with :id=>email
+11:17:41.301 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: test@email.com
+11:17:41.314 INFO  base.CustomDriver -Element found with :id=>login-password
+11:17:41.458 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: abcabc
+11:17:41.471 INFO  base.CustomDriver -Element found with :id=>login
+11:17:41.533 INFO  base.CustomDriver -Element clicked Login Button
+11:17:41.545 INFO  base.CustomDriver -Element found with :xpath=>//a[text()='ALL COURSES']
+11:17:41.565 INFO  base.CustomDriver -Text is found--->ALL COURSES
+11:17:41.565 INFO  Utilities.Utility -Actual Text From Web Application UI   --> : ALL COURSES
+11:17:41.565 INFO  Utilities.Utility -Expected Text From Web Application UI --> : All Courses
+11:17:41.565 INFO  Utilities.Utility -### Verification Contains !!!
+11:17:41.565 INFO  base.Checkpoint -test-01. Header Verification :-> PASS
+11:17:44.608 INFO  base.CustomDriver -Element found with :xpath=>//img[@class='zl-navbar-rhs-img ']
+11:17:44.648 INFO  base.TestListeners -onTestSuccess ->Test Method Name testValidlogin
+11:17:44.687 INFO  base.CustomDriver -Element found with :xpath=>//img[@class='zl-navbar-rhs-img ']
+11:17:44.753 INFO  base.CustomDriver -Element found with :xpath=>//img[@class='zl-navbar-rhs-img ']
+11:17:44.828 INFO  base.CustomDriver -Element clicked Account Click
+11:17:44.832 INFO  base.CustomDriver -Waiting for max:: PT10S seconds for element to be available
+11:17:44.862 INFO  base.CustomDriver -Element appeared on the web page
+11:17:45.352 INFO  base.CustomDriver -Element clicked Logout link
+11:17:46.869 INFO  base.CustomDriver -Waiting for max10secs to be clickable
+11:17:47.487 INFO  base.CustomDriver -Element found with :id=>email
+11:17:47.723 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: test@email.com
+11:17:47.736 INFO  base.CustomDriver -Element found with :id=>login-password
+11:17:47.837 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: abcabc
+11:17:47.849 INFO  base.CustomDriver -Element found with :id=>login
+11:17:47.926 INFO  base.CustomDriver -Element clicked Login Button
+11:17:49.146 INFO  base.CustomDriver -Element found with :xpath=>//a[text()='ALL COURSES']
+11:17:52.082 INFO  base.CustomDriver -Element clicked All Courses Link
+11:17:52.104 INFO  base.CustomDriver -Element found with :name=>course
+11:17:52.200 INFO  base.CustomDriver -Send Keys on element :: Enter Course with data :: Test Automation
+11:17:52.214 INFO  base.CustomDriver -Element found with :xpath=>//button[@type='submit']
+11:17:52.282 INFO  base.CustomDriver -Element clicked Click Search Course Button
+11:17:52.298 INFO  base.CustomDriver -Element List found with: xpath=>//div[@class='zen-course-list']
+11:17:52.299 INFO  base.Checkpoint -test-02.search course verification :-> PASS
+11:17:52.299 INFO  base.Checkpoint -Test Method succeeded
+11:17:52.299 INFO  base.TestListeners -onTestSuccess ->Test Method Name verifySearchTest
+11:17:52.313 INFO  base.CustomDriver -Element found with :xpath=>//a[text()='ALL COURSES']
+11:17:53.025 INFO  base.CustomDriver -Element clicked All Courses Link
+11:17:53.045 INFO  base.CustomDriver -Element found with :name=>course
+11:17:53.215 INFO  base.CustomDriver -Send Keys on element :: Enter Course with data :: Rest API
+11:17:53.225 INFO  base.CustomDriver -Element found with :xpath=>//button[@type='submit']
+11:17:53.289 INFO  base.CustomDriver -Element clicked Click Search Course Button
+11:17:53.300 INFO  base.CustomDriver -Element List found with: xpath=>//div[@class='zen-course-list']
+11:17:53.300 INFO  base.Checkpoint -test-02.search course verification :-> PASS
+11:17:53.301 INFO  base.Checkpoint -Test Method succeeded
+11:17:53.301 INFO  base.TestListeners -onTestSuccess ->Test Method Name verifySearchTest
+11:17:53.321 INFO  base.CustomDriver -Element found with :xpath=>//a[text()='ALL COURSES']
+11:17:54.223 INFO  base.CustomDriver -Element clicked All Courses Link
+11:17:54.236 INFO  base.CustomDriver -Element found with :name=>course
+11:17:54.335 INFO  base.CustomDriver -Send Keys on element :: Enter Course with data :: JavaScript
+11:17:54.346 INFO  base.CustomDriver -Element found with :xpath=>//button[@type='submit']
+11:17:54.407 INFO  base.CustomDriver -Element clicked Click Search Course Button
+11:17:54.418 INFO  base.CustomDriver -Element List found with: xpath=>//div[@class='zen-course-list']
+11:17:54.418 INFO  base.Checkpoint -test-02.search course verification :-> PASS
+11:17:54.418 INFO  base.Checkpoint -Test Method succeeded
+11:17:54.418 INFO  base.TestListeners -onTestSuccess ->Test Method Name verifySearchTest
+11:17:54.662 INFO  base.TestListeners -onFinish Test Tag Name ->ApplicationTest
