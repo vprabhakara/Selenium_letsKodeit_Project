@@ -36,6 +36,7 @@ public class ExtentManager {
         sparkReporter.config().setEncoding("utf-8");
         sparkReporter.config().setReportName(fileName);
         sparkReporter.config().setTimelineEnabled(true);
+        //sparkReporter.config().set
 
         extent = new ExtentReports();
         extent.setSystemInfo("Organization","R1RCM");
